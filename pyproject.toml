@@ -1,0 +1,25 @@
+[project]
+name = "news-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "pbelltech0", email = "" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.32.5",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+	"Topic :: Software Development :: REST API"
+]
+license = "MIT"
+
+[project.scripts]
+news-api = "news_api:main"
+
+[build-system]
+requires = ["uv_build>=0.9.28,<0.10.0"]
+build-backend = "uv_build"
