@@ -1,8 +1,8 @@
-## NEWS-API - PYTHON NEWSAPI.ORG API
+## Python News-API - NEWSAPI.ORG
 
 A Python based interface to connect to the newsapi.org REST API.
 
-## SETUP 
+## Setup 
 
 git clone https://github.com/pbelltech0/news-api.git
 
