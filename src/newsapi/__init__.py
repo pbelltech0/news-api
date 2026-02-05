@@ -1,4 +1,4 @@
-from .news_api import NewsAPI
+from .newsapi import NewsAPI
 
 __version__ = "0.1.0"
 __author__ = "Patrick Bell"

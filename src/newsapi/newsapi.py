@@ -10,7 +10,7 @@ class NewsAPI:
     def __init__(self, api_key: str):
         self.api_key = api_key
 
-    def get_top_headlines(
+    async def get_top_headlines(
         self,
         query=None,
         country=None,
@@ -43,12 +43,12 @@ class NewsAPI:
             raise exc
         try:
             response = requests.get(base_url)
-            return response.json()
+            return response
         except Exception as exc:
             traceback.print_exc()
             raise exc
 
-    def get_everything(
+    async def get_everything(
         self,
         query=None,
         search_in=None,
